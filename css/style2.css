@@ -1,0 +1,18 @@
+section.about div.info:nth-of-type(even) {
+  border-bottom: 2px solid #D4AF37;
+  border-bottom-left-radius: 5%;
+  border-bottom-right-radius: 5%;
+}
+
+section.about div.border {
+  border-bottom: 2px solid #D4AF37;
+  border-bottom-left-radius: 5%;
+  border-bottom-right-radius: 5%;
+  overflow: hidden;
+}
+
+section.about div.no_border:nth-of-type(even) {
+  border-bottom: none;
+  border-bottom-left-radius: 0%;
+  border-bottom-right-radius: 0%;
+}
